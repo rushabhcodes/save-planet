@@ -679,7 +679,6 @@ export function SavePlanetGame() {
             <CardContent className="pt-0">
               <ul className="list-disc text-slate-400 pl-5 space-y-1">
                 <li>Click on any damaged building to begin</li>
-                <li>Answer 3 computer-related questions per building</li>
                 <li>Repair all 8 buildings as fast as you can</li>
                 <li>Timer starts when you click your first building</li>
               </ul>
