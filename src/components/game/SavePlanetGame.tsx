@@ -270,8 +270,23 @@ export function SavePlanetGame() {
       questionPool.splice(randomIndex, 1); // Remove the selected question from the pool
     }
     
-    // Get the selected questions
-    const selectedQuestions = selectedIndices.map(index => QUESTIONS[index]);
+    // Get the selected questions and shuffle options
+    const selectedQuestions = selectedIndices.map(index => {
+      const question = {...QUESTIONS[index]};
+      
+      // Create a shuffled copy of the options array
+      const shuffledOptions = [...question.options];
+      for (let i = shuffledOptions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+      }
+      
+      // Return question with shuffled options
+      return {
+        ...question,
+        options: shuffledOptions
+      };
+    });
     
     // Update state
     setCurrentQuestions(selectedQuestions);
