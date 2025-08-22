@@ -359,29 +359,61 @@ export function SavePlanetGame() {
       {/* Enhanced horizon line with city silhouette */}
       <div className="absolute inset-x-0 top-1/4 overflow-visible">
         {/* Distant cityscape silhouette */}
-        <div className="absolute inset-x-0 -top-8 h-16">
-          {/* Distant buildings silhouette */}
-          <div className="absolute left-[5%] bottom-0 w-8 h-10 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[8%] bottom-0 w-10 h-14 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[12%] bottom-0 w-6 h-8 bg-slate-900 rounded-sm"></div>
+        <div className="absolute inset-x-0 -top-12 h-24">
+          {/* Distant buildings silhouette - First layer (farthest) */}
+          <div className="absolute left-[3%] bottom-0 w-9 h-16 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[7%] bottom-0 w-12 h-20 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[12%] bottom-0 w-14 h-14 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[18%] bottom-0 w-8 h-18 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[22%] bottom-0 w-16 h-20 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[28%] bottom-0 w-10 h-16 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[35%] bottom-0 w-14 h-22 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[42%] bottom-0 w-12 h-18 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[48%] bottom-0 w-16 h-20 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[56%] bottom-0 w-10 h-16 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[62%] bottom-0 w-18 h-22 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[70%] bottom-0 w-14 h-16 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[78%] bottom-0 w-12 h-20 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[86%] bottom-0 w-16 h-18 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          <div className="absolute left-[94%] bottom-0 w-12 h-16 bg-slate-900/80 rounded-sm blur-[0.5px]"></div>
+          
+          {/* Distant buildings silhouette - Second layer (closer) with more detail */}
+          <div className="absolute left-[5%] bottom-0 w-8 h-12 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[8%] bottom-0 w-6 h-16 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[11%] bottom-0 w-4 h-10 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[15%] bottom-0 w-10 h-14 bg-slate-900 rounded-sm"></div>
           <div className="absolute left-[20%] bottom-0 w-14 h-12 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[25%] bottom-0 w-8 h-16 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[30%] bottom-0 w-10 h-10 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[45%] bottom-0 w-12 h-14 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[25%] bottom-0 w-8 h-18 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[30%] bottom-0 w-10 h-14 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[34%] bottom-0 w-5 h-10 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[39%] bottom-0 w-7 h-12 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[45%] bottom-0 w-12 h-16 bg-slate-900 rounded-sm"></div>
           <div className="absolute left-[50%] bottom-0 w-8 h-12 bg-slate-900 rounded-sm"></div>
           <div className="absolute left-[55%] bottom-0 w-10 h-16 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[60%] bottom-0 w-6 h-10 bg-slate-900 rounded-sm"></div>
           <div className="absolute left-[65%] bottom-0 w-14 h-12 bg-slate-900 rounded-sm"></div>
           <div className="absolute left-[72%] bottom-0 w-10 h-14 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[78%] bottom-0 w-8 h-10 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[76%] bottom-0 w-6 h-16 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[80%] bottom-0 w-8 h-10 bg-slate-900 rounded-sm"></div>
           <div className="absolute left-[85%] bottom-0 w-12 h-16 bg-slate-900 rounded-sm"></div>
-          <div className="absolute left-[92%] bottom-0 w-10 h-12 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[90%] bottom-0 w-5 h-12 bg-slate-900 rounded-sm"></div>
+          <div className="absolute left-[94%] bottom-0 w-8 h-14 bg-slate-900 rounded-sm"></div>
+          
+          {/* Detailed building features */}
+          <div className="absolute left-[25%] bottom-[70%] w-2 h-2 bg-amber-500/50 rounded-full"></div>
+          <div className="absolute left-[45%] bottom-[60%] w-2 h-2 bg-red-500/40 rounded-full"></div>
+          <div className="absolute left-[65%] bottom-[75%] w-2 h-2 bg-cyan-500/50 rounded-full"></div>
+          <div className="absolute left-[85%] bottom-[65%] w-2 h-2 bg-amber-500/50 rounded-full"></div>
         </div>
         
-        {/* Gradient horizon glow - changed from cyan to amber/green */}
-        <div className="absolute inset-x-0 -top-2 h-8 bg-gradient-to-b from-amber-900/10 to-green-900/20 blur-sm"></div>
+        {/* Gradient horizon glow - enhanced for more dramatic cityscape */}
+        <div className="absolute inset-x-0 -top-4 h-12 bg-gradient-to-b from-amber-900/20 via-green-900/20 to-green-900/10 blur-md"></div>
         
-        {/* Horizon line with slight glow - changed from cyan to amber */}
-        <div className="absolute inset-x-0 top-0 h-px bg-amber-500/30 shadow-lg shadow-amber-500/20"></div>
+        {/* City light pollution glow */}
+        <div className="absolute inset-x-0 -top-10 h-10 bg-gradient-radial from-amber-500/10 to-transparent blur-xl"></div>
+        
+        {/* Horizon line with enhanced glow */}
+        <div className="absolute inset-x-0 top-0 h-px bg-amber-500/40 shadow-lg shadow-amber-500/30"></div>
       </div>
       
       {/* Ground texture */}
@@ -668,7 +700,7 @@ export function SavePlanetGame() {
               Planet Repair Mission
             </DialogTitle>
             <DialogDescription className="text-slate-300 text-center">
-              Our cyberpunk planet has been damaged! Repair all buildings by answering computer questions.
+              Our planet has been damaged! Repair all buildings.
             </DialogDescription>
           </DialogHeader>
           
