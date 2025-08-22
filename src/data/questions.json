@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "question": "What does PC stand for?",
+      "options": ["Personal Computer", "Power Computer", "Primary Computer", "Processing Computer"],
+      "correctAnswer": "Personal Computer"
+    },
+    {
+      "question": "Which of these is used to browse the internet?",
+      "options": ["Web Browser", "Word Processor", "Email Client", "Spreadsheet"],
+      "correctAnswer": "Web Browser"
+    },
+    {
+      "question": "What is the main input device for a computer?",
+      "options": ["Keyboard", "Speaker", "Monitor", "Printer"],
+      "correctAnswer": "Keyboard"
+    },
+    {
+      "question": "Which button is usually used to close a window?",
+      "options": ["X", "O", "M", "Z"],
+      "correctAnswer": "X"
+    },
+    {
+      "question": "What is a mouse used for?",
+      "options": ["Pointing", "Typing", "Scanning", "Printing"],
+      "correctAnswer": "Pointing"
+    },
+    {
+      "question": "Which of these is a web browser?",
+      "options": ["Chrome", "Excel", "PowerPoint", "Word"],
+      "correctAnswer": "Chrome"
+    },
+    {
+      "question": "What do you need to connect to the internet?",
+      "options": ["WiFi or Cable", "Printer", "Scanner", "Microphone"],
+      "correctAnswer": "WiFi or Cable"
+    },
+    {
+      "question": "What does USB stand for?",
+      "options": ["Universal Serial Bus", "User System Bus", "Unified System Base", "Ultra Speed Bus"],
+      "correctAnswer": "Universal Serial Bus"
+    },
+    {
+      "question": "Which of these is a search engine?",
+      "options": ["Google", "Word", "Photoshop", "Windows"],
+      "correctAnswer": "Google"
+    },
+    {
+      "question": "What is the main output device for a computer?",
+      "options": ["Monitor", "Keyboard", "Mouse", "CPU"],
+      "correctAnswer": "Monitor"
+    },
+    {
+      "question": "Which key is used to delete text?",
+      "options": ["Backspace", "Enter", "Tab", "Shift"],
+      "correctAnswer": "Backspace"
+    },
+    {
+      "question": "What is an email used for?",
+      "options": ["Sending messages", "Playing games", "Drawing pictures", "Watching videos"],
+      "correctAnswer": "Sending messages"
+    },
+    {
+      "question": "What is a password used for?",
+      "options": ["Security", "Drawing", "Playing music", "Taking pictures"],
+      "correctAnswer": "Security"
+    },
+    {
+      "question": "Which of these is a computer storage device?",
+      "options": ["Hard Drive", "Microphone", "Monitor", "Speaker"],
+      "correctAnswer": "Hard Drive"
+    },
+    {
+      "question": "What is a folder used for?",
+      "options": ["Organizing files", "Playing games", "Taking pictures", "Drawing"],
+      "correctAnswer": "Organizing files"
+    },
+    {
+      "question": "What is the internet?",
+      "options": ["Global network", "Computer game", "Type of keyboard", "Office software"],
+      "correctAnswer": "Global network"
+    },
+    {
+      "question": "What is an app?",
+      "options": ["Software application", "Type of computer", "Internet cable", "Computer mouse"],
+      "correctAnswer": "Software application"
+    },
+    {
+      "question": "What does 'save' do?",
+      "options": ["Stores your work", "Prints a document", "Closes a program", "Deletes a file"],
+      "correctAnswer": "Stores your work"
+    },
+    {
+      "question": "What is copy and paste used for?",
+      "options": ["Duplicating content", "Creating folders", "Sending email", "Playing music"],
+      "correctAnswer": "Duplicating content"
+    },
+    {
+      "question": "Which of these is a social media platform?",
+      "options": ["Facebook", "Excel", "WordPad", "Notepad"],
+      "correctAnswer": "Facebook"
+    },
+    {
+      "question": "What is a touchscreen?",
+      "options": ["Screen you can touch to control", "New kind of keyboard", "Type of printer", "Internet device"],
+      "correctAnswer": "Screen you can touch to control"
+    },
+    {
+      "question": "What is a cursor?",
+      "options": ["Screen pointer", "Type of keyboard", "Computer virus", "Internet browser"],
+      "correctAnswer": "Screen pointer"
+    },
+    {
+      "question": "What is the power button symbol?",
+      "options": ["Circle with a line", "Square", "Triangle", "Star"],
+      "correctAnswer": "Circle with a line"
+    },
+    {
+      "question": "What does clicking do?",
+      "options": ["Selects something", "Turns off computer", "Changes screen color", "Deletes everything"],
+      "correctAnswer": "Selects something"
+    }
+  ]
+}

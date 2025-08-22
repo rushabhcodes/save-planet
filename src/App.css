@@ -1,0 +1,31 @@
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: white;
+  background-color: #070a13;
+}
+
+/* Background image for our damaged planet */
+.damaged-planet {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100%" height="100%" fill="#070a13"/><path d="M0 50 L100 50" stroke="#1e293b" stroke-width="0.5" /><path d="M50 0 L50 100" stroke="#1e293b" stroke-width="0.5" /></svg>');
+  background-size: 50px 50px;
+}
+
+/* Disable default button styles */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
